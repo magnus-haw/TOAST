@@ -1,0 +1,26 @@
+name: toast
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.12
+
+  # FEM / meshing
+  - fenics-dolfinx
+  - mpich
+  - gmsh
+  - python-gmsh
+
+  # Numerical / analysis
+  - scipy
+  - pandas
+
+  # Visualization / interactive work
+  - matplotlib
+  - pyvista
+  - ipykernel
+
+  # Package installation / tests
+  - pip
+  - pytest
